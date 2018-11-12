@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Coffee Finder</title>
+
+<!-- RESPONSIVE -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+ <!-- LINK FONTS -->
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro: 100,500,700' rel='stylesheet' type='text/css'>
+
+<!-- SOCIAL MEDIA ICONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- LINK SASS -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+<link rel="stylesheet" href="mainsass/css/style.css" type="text/css">
+
+<!-- LINK FAVICON -->
+<link rel="shortcut icon" href="images/favicon4.ico">
+
+<!-- BOOTSTRAP -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+<!-- JAVASCRIPT -->
+<script src="js/scriptJQ.js" type="text/javascript"></script>
+
+  </head>
+
+<body>
+
+    <!-- FIDAL MODAL -->
+    <div class="container modalContain" id="modal__fidel">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.5955043089334!2d174.77176001542293!3d-41.29590707927264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38afd8855cc22b%3A0x7f7678e868579b4!2sFidel&#39;s+Cafe!5e0!3m2!1sen!2snz!4v1541491035832" width="100%" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col-sm-9 modal__info">
+                <div class="modal__name">Fidel's Cafe</div>
+                <div class="modal__address">
+                    <img class="modal__icons" src="images/svg/location.svg">
+                    <h2 class="modal__text">234 Cuba St, Te Aro, Wellington 6011</h2>
+                </div>
+                <br>
+                <div class="modal__phone">
+                    <img class="modal__icons" src="images/svg/phone.svg">
+                    <h2 class="modal__text">(04) 801 6868</h2>
+                </div>
+                <br>
+                <div class="modal__url">
+                    <img class="modal__icons" src="images/svg/www.svg">
+                    <h2 class="modal__text">fidels.com</h2>
+                </div>
+                <br>
+                <div class="modal__ratings">
+                    <img class="modal__icons stars" src="images/svg/star4half.svg">
+                </div>
+            </div>
+            <div class="col-sm-3 modal__logo">
+                <img class="modal__logo--icon" src="images/svg/logo.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- ASTORIA MODAL -->
+    <div class="container modalContain" id="modal__astoria">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.2142207877814!2d174.77425231542253!3d-41.282441979273905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38ae2b281b9b43%3A0xe7d11eb9b95acb4!2sCaffe+Astoria!5e0!3m2!1sen!2snz!4v1541543579798" width="100%" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col-sm-9 modal__info">
+                <div class="modal__name">Caffe Astoria</div>
+                <div class="modal__address">
+                    <img class="modal__icons" src="images/svg/location.svg">
+                    <h2 class="modal__text">159 Lambton Quay, Wellington, 6011</h2>
+                </div>
+                <br>
+                <div class="modal__phone">
+                    <img class="modal__icons" src="images/svg/phone.svg">
+                    <h2 class="modal__text">(04) 473 8500</h2>
+                </div>
+                <br>
+                <div class="modal__url">
+                    <img class="modal__icons" src="images/svg/www.svg">
+                    <h2 class="modal__text">astoria.co.nz</h2>
+                </div>
+                <br>
+                <div class="modal__ratings">
+                    <img class="modal__icons" src="images/svg/star4.svg">
+                </div>
+            </div>
+            <div class="col-sm-3 modal__logo">
+                <img src="images/svg/logo.svg" alt="">
+            </div>
+            </div>
+        </div>
+    </div>
+       
+    <!-- COLUMBUS MODAL -->
+    <div class="container modalContain" id="modal__columbus">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.068580954376!2d174.77524701597852!3d-41.307371649629545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38afe1432c6a8b%3A0xa50ef728807aae4e!2sColumbus+Coffee+Newtown!5e0!3m2!1sen!2snz!4v1541544334584" width="100%" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col-sm-9 modal__info">
+                <div class="modal__name">Columbus Coffee</div>
+                <div class="modal__address">
+                    <img class="modal__icons" src="images/svg/location.svg">
+                    <h2 class="modal__text">3 John St, Newtown, Wellington 6021</h2>
+                </div>
+                <br>
+                <div class="modal__phone">
+                    <img class="modal__icons" src="images/svg/phone.svg">
+                    <h2 class="modal__text">(04) 380 1954</h2>
+                </div>
+                <br>
+                <div class="modal__url">
+                    <img class="modal__icons" src="images/svg/www.svg">
+                    <h2 class="modal__text">columbuscoffee.co.nz</h2>
+                </div>
+                <br>
+                <div class="modal__ratings">
+                    <img class="modal__icons" src="images/svg/star3half.svg">
+                </div>
+            </div>
+            <div class="col-sm-3 modal__logo">
+                <img src="images/svg/logo.svg" alt="">
+            </div>
+        </div>
+    </div>
+            
+    <!-- BLACK COFFEE MODAL -->
+    <div class="container modalContain" id="modal__blackCoffee">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.8520467717794!2d174.7773617159787!3d-41.31208214992037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38afe4be9ed20b%3A0xce09013661c7278f!2sBlack+Coffee!5e0!3m2!1sen!2snz!4v1541545419098" width="100%" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col-sm-9 modal__info">
+                <div class="modal__name">Black Coffee</div>
+                <div class="modal__address">
+                    <img class="modal__icons" src="images/svg/location.svg">
+                    <h2 class="modal__text">133 Riddiford St, Newtown, Wellington 6021</h2>
+                </div>
+                <br>
+                <div class="modal__phone">
+                    <img class="modal__icons" src="images/svg/phone.svg">
+                    <h2 class="modal__text">022 137 9446</h2>
+                </div>
+                <br>
+                <div class="modal__url">
+                    <img class="modal__icons" src="images/svg/www.svg">
+                    <h2 class="modal__text">blackcoffeenewtown.com</h2>
+                </div>
+                <br>
+                <div class="modal__ratings">
+                    <img class="modal__icons" src="images/svg/star4half.svg">
+                </div>
+            </div>
+            <div class="col-sm-3 modal__logo">
+                <img src="images/svg/logo.svg" alt="">
+            </div>
+        </div>
+    </div>
+        
+    <!-- ARO CAFE MODAL -->
+    <div class="container modalContain" id="modal__aroCafe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.624508220602!2d174.7647643159782!3d-41.2952759488833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38b02435d60cdf%3A0xeb6e22cc33dbec07!2sAro+Cafe!5e0!3m2!1sen!2snz!4v1541545562841" width="100%" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col-sm-9 modal__info">
+                <div class="modal__name">Aro Cafe</div>
+                <div class="modal__address">
+                    <img class="modal__icons" src="images/svg/location.svg">
+                    <h2 class="modal__text">90 Aro St, Aro Valley, Wellington 6021</h2>
+                </div>
+                <br>
+                <div class="modal__phone">
+                    <img class="modal__icons" src="images/svg/phone.svg">
+                    <h2 class="modal__text">(04) 384 4970</h2>
+                </div>
+                <br>
+                <div class="modal__url">
+                    <img class="modal__icons" src="images/svg/www.svg">
+                    <h2 class="modal__text">arocafe.co.nz</h2>
+                </div>
+                <br>
+                <div class="modal__ratings">
+                    <img class="modal__icons" src="images/svg/star4half.svg">
+                </div>
+            </div>
+            <div class="col-sm-3 modal__logo">
+                <img src="images/svg/logo.svg" alt="">
+            </div>
+        </div>
+    </div>
+            
+    <!-- MOJO TERRACE MODAL -->
+    <div class="container modalContain" id="modal__mojoTce">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.1817858867716!2d174.77265331597786!3d-41.28314794813513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38afd44a7c94d1%3A0x8d63447d4a219128!2sMojo+Terrace!5e0!3m2!1sen!2snz!4v1541546140440" width="100%" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col-sm-9 modal__info">
+                <div class="modal__name">Mojo Terrace</div>
+                <div class="modal__address">
+                    <img class="modal__icons" src="images/svg/location.svg">
+                    <h2 class="modal__text">113-119 The Terrace, Wellington, 6011</h2>
+                </div>
+                <br>
+                <div class="modal__phone">
+                    <img class="modal__icons" src="images/svg/phone.svg">
+                    <h2 class="modal__text">(04) 499 0620</h2>
+                </div>
+                <br>
+                <div class="modal__url">
+                    <img class="modal__icons" src="images/svg/www.svg">
+                    <h2 class="modal__text">mojo.coffee</h2>
+                </div>
+                <br>
+                <div class="modal__ratings">
+                    <img class="modal__icons" src="images/svg/star4half.svg">
+                </div>
+            </div>
+            <div class="col-sm-3 modal__logo">
+                <img src="images/svg/logo.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- MOJO WATERFRONT MODAL -->
+    <div class="container modalContain" id="modal__mojoWater">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.1842668688773!2d174.77656131597792!3d-41.28309394813182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38afd4ac785809%3A0x33d19fc4de4e052e!2sMojo+Waterfront!5e0!3m2!1sen!2snz!4v1541546228831" width="100" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col-sm-9 modal__info">
+                <div class="modal__name">Mojo Waterfront</div>
+                <div class="modal__address">
+                    <img class="modal__icons" src="images/svg/location.svg">
+                    <h2 class="modal__text">33 Customhouse Quay, Wellington, 6011</h2>
+                </div>
+                <br>
+                <div class="modal__phone">
+                    <img class="modal__icons" src="images/svg/phone.svg">
+                    <h2 class="modal__text">(04) 473 6662</h2>
+                </div>
+                <br>
+                <div class="modal__url">
+                    <img class="modal__icons" src="images/svg/www.svg">
+                    <h2 class="modal__text">mojo.coffee</h2>
+                </div>
+                <br>
+                <div class="modal__ratings">
+                    <img class="modal__icons" src="images/svg/star4.svg">
+                </div>
+            </div>
+            <div class="col-sm-3 modal__logo">
+                <img src="images/svg/logo.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- MOJO LAMBTON MODAL -->
+    <div class="container modalContain" id="modal__mojoLambton">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.044918842681!2d174.77403491597792!3d-41.28612684831888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38afd44de88da5%3A0x776a2a8cbccddfee!2sMojo+Coffee+Bar!5e0!3m2!1sen!2snz!4v1541546517213" width="100%" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col-sm-9 modal__info">
+                <div class="modal__name">Mojo Coffee Bar</div>
+                <div class="modal__address">
+                    <img class="modal__icons" src="images/svg/location.svg">
+                    <h2 class="modal__text">Lambton Quay, Wellington, 6011</h2>
+                </div>
+                <br>
+                <div class="modal__phone">
+                    <img class="modal__icons" src="images/svg/phone.svg">
+                    <h2 class="modal__text">(04) 473 2327</h2>
+                </div>
+                <br>
+                <div class="modal__url">
+                    <img class="modal__icons" src="images/svg/www.svg">
+                    <h2 class="modal__text">mojo.coffee</h2>
+                </div>
+                <br>
+                <div class="modal__ratings">
+                    <img class="modal__icons" src="images/svg/star4.svg">
+                </div>
+            </div>
+            <div class="col-sm-3 modal__logo">
+                <img src="images/svg/logo.svg" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <!-- THE HANGER MODAL -->
+    <div class="container modalContain" id="modal__theHanger">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.8198004395495!2d174.77175921597805!3d-41.291026148621086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38afd7c5681819%3A0x9772702238a65552!2sThe+Hangar!5e0!3m2!1sen!2snz!4v1541546654243" width="100%" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col-sm-9 modal__info">
+                <div class="modal__name">The Hanger</div>
+                <div class="modal__address">
+                    <img class="modal__icons" src="images/svg/location.svg">
+                    <h2 class="modal__text">119 Dixon St, Te Aro, Wellington 6011</h2>
+                </div>
+                <br>
+                <div class="modal__phone">
+                    <img class="modal__icons" src="images/svg/phone.svg">
+                    <h2 class="modal__text">(04) 830 0909</h2>
+                </div>
+                <br>
+                <div class="modal__url">
+                    <img class="modal__icons" src="images/svg/www.svg">
+                    <h2 class="modal__text">flightcoffee.co.nz</h2>
+                </div>
+                <br>
+                <div class="modal__ratings">
+                    <img class="modal__icons" src="images/svg/star4half.svg">
+                </div>
+            </div>    
+            <div class="col-sm-3 modal__logo">
+                <img src="images/svg/logo.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- CAFE PANAMA MODAL -->
+    <div class="container modalContain" id="modal__panama">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.7066838775736!2d174.776562151444!3d-41.29348774867105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38afd9ff54a4f1%3A0x7437af79fa6b70b4!2sCafe+Panama!5e0!3m2!1sen!2snz!4v1541551715992" width="100%" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col-sm-9 modal__info">
+                <div class="modal__name">Cafe Panama</div>
+                <div class="modal__address">
+                    <img class="modal__icons" src="images/svg/location.svg">
+                    <h2 class="modal__text">75 Taranaki St, Te Aro, Wellington 6011</h2>
+                </div>
+                <br>
+                <div class="modal__phone">
+                    <img class="modal__icons" src="images/svg/phone.svg">
+                    <h2 class="modal__text">(04) 801 1234</h2>
+                </div>
+                <br>
+                <div class="modal__url">
+                    <img class="modal__icons" src="images/svg/www.svg">
+                    <h2 class="modal__text">cafepanama.co.nz</h2>
+                </div>
+                <br>
+                <div class="modal__ratings">
+                    <img class="modal__icons stars" src="images/svg/star4.svg">
+                </div>
+            </div>
+            <div class="col-sm-3 modal__logo">
+                <img src="images/svg/logo.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- SALVATION COFFEE MODAL -->
+    <div class="container modalContain" id="modal__salvation">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.2362460011914!2d174.77708495144435!3d-41.30372394930271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38afe7454af047%3A0xd41093b8689155c8!2sSalvation+Coffee!5e0!3m2!1sen!2snz!4v1541552243469" width="100%" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col-sm-9 modal__info">
+                <div class="modal__name">Salvation Coffee</div>
+                <div class="modal__address">
+                    <img class="modal__icons" src="images/svg/location.svg">
+                    <h2 class="modal__text">75 Adelaide Rd, Mount Cook, Wellington 6021</h2>
+                </div>
+                <br>
+                <div class="modal__phone">
+                    <img class="modal__icons" src="images/svg/phone.svg">
+                    <h2 class="modal__text">(04) 891 0643</h2>
+                </div>
+                <br>
+                <div class="modal__url">
+                    <img class="modal__icons" src="images/svg/www.svg">
+                    <h2 class="modal__text">salvationcoffee.co.nz</h2>
+                </div>
+                <br>
+                <div class="modal__ratings">
+                    <img class="modal__icons stars" src="images/svg/star3half.svg">
+                </div>
+            </div>
+            <div class="col-sm-3 modal__logo">
+                <img class="modal__logo--icon" src="images/svg/logo.svg" alt="">
+            </div>
+        </div>
+    </div>
+  
+    <!-- ARABICA CAFE MODAL -->
+    <div class="container modalContain" id="modal__arabica">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.2362460011914!2d174.77708495144435!3d-41.30372394930271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38afd4fa9cf31f%3A0x4c43f1b70b2d422b!2sArabica+Cafe!5e0!3m2!1sen!2snz!4v1541552452708" width="100%" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col-sm-9 modal__info">
+                <div class="modal__name">Arabica Cafe</div>
+                <div class="modal__address">
+                    <img class="modal__icons" src="images/svg/location.svg">
+                    <h2 class="modal__text">1 Grey St, Wellington, 6011</h2>
+                </div>
+                <br>
+                <div class="modal__phone">
+                    <img class="modal__icons" src="images/svg/phone.svg">
+                    <h2 class="modal__text">(04) 473 7697</h2>
+                </div>
+                <br>
+                <div class="modal__url">
+                    <img class="modal__icons" src="images/svg/www.svg">
+                    <h2 class="modal__text">arabicacafe.co.nz</h2>
+                </div>
+                <br>
+                <div class="modal__ratings">
+                    <img class="modal__icons stars" src="images/svg/star4.svg">
+                </div>
+            </div>
+            <div class="col-sm-3 modal__logo">
+                <img src="images/svg/logo.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+<!-- javascript links -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

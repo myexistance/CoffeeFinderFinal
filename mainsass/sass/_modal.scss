@@ -1,0 +1,302 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.close{
+color: #F6F6FA !important;
+}
+.close:hover,
+.close:focus {
+    color: $teal !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+#modal_arabica{
+    display: none;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 20%;
+    width: 100%;
+    height: 100%;
+}
+#modal__aroCafe{
+        display: none;
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        left: 20%;
+        width: 100%;
+        height: 100%;
+}
+#modal__astoria{
+        display: none;
+        z-index: 15;
+        position: fixed;
+        top: 0;
+        left: 20%;
+        width: 100%;
+        height: 100%;
+}
+#modal__blackCoffee{
+        display: none;
+        z-index: 20;
+        position: fixed;
+        top: 0;
+        left: 20%;
+        width: 100%;
+        height: 100%;
+}
+#modal__columbus{
+        display: none;
+        z-index: 25;
+        position: fixed;
+        top: 0;
+        left: 20%;
+        width: 100%;
+        height: 100%;
+}
+#modal__panama{
+        display: none;
+        z-index: 30;
+        position: fixed;
+        top: 0;
+        left: 20%;
+        width: 100%;
+        height: 100%;
+}
+#modal__fidel{
+        display: none;
+        z-index: 35;
+        position: fixed;
+        top: 0;
+        left: 20%;
+        width: 100%;
+        height: 100%;
+}
+#modal__mojoLambton{
+        display: none;
+        z-index: 40;
+        position: fixed;
+        top: 0;
+        left: 20%;
+        width: 100%;
+        height: 100%;
+}
+#modal__mojoTce{
+        display: none;
+        z-index: 45;
+        position: fixed;
+        top: 0;
+        left: 20%;
+        width: 100%;
+        height: 100%;
+}
+#modal__mojoWater{
+        display: none;
+        z-index: 50;
+        position: fixed;
+        top: 0;
+        left: 20%;
+        width: 100%;
+        height: 100%;
+}
+#modal__salvation{
+        display: none;
+        z-index: 55;
+        position: fixed;
+        top: 0;
+        left: 20%;
+        width: 100%;
+        height: 100%;
+}
+#modal__theHanger{
+        display: none;
+        z-index: 60;
+        position: fixed;
+        top: 0;
+        left: 20%;
+        width: 100%;
+        height: 100%;
+}
+.modalContain{
+    margin: 0 auto;
+    background-color: $blue;
+    width: 70%;
+}
+.modal__info{
+    background-color: $blue;
+    height: 287px;
+    padding-top: 1%;
+}
+.modal__logo{
+    background-color: $blue;
+    height: 287px;
+    padding-top: 15.5%;
+}
+.modal__name{
+    color: #F6F6FA;
+    font: source sans pro;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.modal__address{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 1%;
+    margin-right: 10px;
+}
+.modal__text{
+    color: #F6F6FA;
+    font: source sans pro;
+    font-size: 2em;
+    font-weight: regular;
+    letter-spacing: 3px;
+}
+.modal__phone{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 1%;
+}
+.modal__url{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.modal__icons{
+    height: 35px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px){
+#modal_arabica{
+        left: 3%;
+}
+#modal__aroCafe{
+        left: 3%;
+}
+#modal__astoria{
+        left: 3%;
+}
+#modal__blackCoffee{
+        left: 3%;
+}
+#modal__columbus{
+        left: 3%;
+}
+#modal__panama{
+        left: 3%;
+}
+#modal__fidel{
+        left: 3%;
+}
+#modal__mojoLambton{
+        left: 3%;
+}
+#modal__mojoTce{
+        left: 3%;
+}
+#modal__mojoWater{
+        left: 3%;
+}
+#modal__salvation{
+        left: 3%;
+}
+#modal__theHanger{
+        left: 3%;
+}
+.modal__name{
+        font-size: 1.5em;
+}
+.modal__text{
+        font-size: 1.2em;
+}
+.modalContain{
+        width: 90%;
+}
+.modal__logo{
+        height: 250px;
+        padding-top: 36%;
+}
+.modal__info{
+        height: 250px;
+}
+.stars{
+        height: 25px;
+        margin-top: 2%;
+}
+}
+@media screen and (max-width: 450px){
+#modal_arabica{
+        left: 0;
+}
+#modal__aroCafe{
+        left: 0;
+}
+#modal__astoria{
+        left: 0;
+}
+#modal__blackCoffee{
+        left: 0;
+}
+#modal__columbus{
+        left: 0;
+}
+#modal__panama{
+        left: 0;
+}
+#modal__fidel{
+        left: 0;
+}
+#modal__mojoLambton{
+        left: 0;
+}
+#modal__mojoTce{
+        left: 0;
+}
+#modal__mojoWater{
+        left: 0;
+}
+#modal__salvation{
+        left: 0;
+}
+#modal__theHanger{
+        left: 0;
+}
+.modal__name{
+        font-size: 1.3em;
+}
+.modal__text{
+        font-size: 1.1em;
+        margin-top: 1%;
+        margin-right: 10px;
+        letter-spacing: 3px;
+}
+.modalContain{
+        width: 100%;
+}
+.modal__logo{
+        height: 130px;
+        padding-top: 2%;
+}
+.modal__info{
+        height: 225px;
+}
+.stars{
+        margin-top: 2%;
+}
+.modal__icons{
+        height: 30px;
+}
+.modal__logo img{
+        height: 60px;
+ }
+}
+
+
+
